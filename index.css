@@ -4,39 +4,10 @@
     margin-right: auto;
     background-color: lightgray;
     border-radius: 10px;
-    max-width: 20%;
+    max-width: 17%;
     
 }
 
-.postitus2 {
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: lightgray;
-    border-radius: 10px;
-    max-width: 20%;
-    
-}
-
-.postitus3 {
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: lightgray;
-    border-radius: 10px;
-    max-width: 20%;
-    
-}
-
-.postitus4 {
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: lightgray;
-    border-radius: 10px;
-    max-width: 20%;
-    
-}
 
 .parem {
     text-align: right;
@@ -44,6 +15,7 @@
 
 .vasak {
     text-align: left;
+    padding-bottom: 10px;
 }
 
 .pildike {
@@ -52,6 +24,8 @@
   vertical-align: top;
   float: left;
   border-radius: 10px;
+  padding-left: 2px;
+  padding-top: 2px;
 
 }
 
@@ -60,6 +34,17 @@
     margin: auto;
     justify-content: center;
     border-radius: 10px;
+    padding-left: 6px;
+}
+
+.picture {
+    max-width: 40px;
+  max-height: 40px;
+  vertical-align: top;
+  float: right;
+  border-radius: 10px;
+  padding-left: 2px;
+  padding-top: 2px;
 }
 
 .topnav {
@@ -77,4 +62,14 @@
 .home:hover {
   background-color: gray;
   font-size: 18px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgray;
+  color: white;
+  text-align: center;
 }
