@@ -1,0 +1,41 @@
+
+.header { 
+	background-color: #bfbfbf; 
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 8px 15px;
+  border: 1px dashed #999;        
+  box-sizing: border-box;
+}
+div.login {
+	background-color: #bfbfbf;		
+	margin: 30px;
+	text-align:center;
+	
+	}
+
+.lightblue {
+	color: #2BC7F2;
+}
+.loginbutton{
+  font: bold 11px Arial;
+  text-color: white;
+  background-color: darkblue;
+  color: #333333;
+  padding: 10px 6px 2px 6px;
+  border-top: 10px;
+
+}
+
+
+.heading {
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+}
+.headIcon{ width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
