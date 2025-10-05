@@ -40,3 +40,7 @@ button{
   border-radius: 50%;
   object-fit: cover;
 }
+input[type="email"] + input[type="password"] {
+  margin-top: 10px;
+  border: 2px solid lightblue;
+}
