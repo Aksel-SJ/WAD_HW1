@@ -9,6 +9,7 @@
 }
 
 
+
 .parem {
     text-align: right;
 }
@@ -16,6 +17,8 @@
 .vasak {
     text-align: left;
     padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 5px;
 }
 
 .pildike {
@@ -72,6 +75,9 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: lightgray;
-  color: white;
-  text-align: center;
+}
+
+footer > p {
+    color: white;
+    text-align: center;
 }
