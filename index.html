@@ -1,20 +1,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="res\css\index.css">
+    <link rel="stylesheet" href="res\css\style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" >
     <title>My Dashboard</title>
   </head>
   <body>
-	
-<header>
-     <div class="topnav">
-        <img src ="res/images/user_icon.jpg" alt = "Kasutaja" class="picture">
-        <a id="#home" href="login.html">Home</a>
-        <a id = "#home" href="addPost.html">addPost</a>
-</div> 
-</header>
+        <header>
+        <div class="topnav">
+            <a id="home" href="index.html">Home</a>
+            <a id="addPost" href="addPost.html">Add Post</a>
+
+            <div class="usermenu">
+                <img src="res/images/user_icon.jpg" alt="User" class="picture" id="userIcon">
+                <div class="dropdown" id="dropdownMenu">
+                    <p><strong>John Doe</strong></p>
+                    <p>john.doe@ut.ee</p>
+                    <a href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </header>
 
 <div id="posts-container"></div>
 
@@ -27,4 +34,3 @@
   </body>
   
 </html>
-
