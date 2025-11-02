@@ -58,6 +58,27 @@
       });
     })
     .catch(error => console.error("Error loading local posts:", error));
+
+     const userIcon = document.getElementById("userIcon");
+     const dropdownMenu = document.getElementById("dropdownMenu");
+
+     userIcon.addEventListener("click", () => {
+         const isVisible = dropdownMenu.style.display === "block";
+         if (isVisible) {
+             dropdownMenu.style.opacity = "0";
+             setTimeout(() => dropdownMenu.style.display = "none", 200);
+         } else {
+             dropdownMenu.style.display = "block";
+             setTimeout(() => dropdownMenu.style.opacity = "1", 10);
+         }
+     });
+
+     document.addEventListener("click", (e) => {
+         if (!userIcon.contains(e.target) && !dropdownMenu.contains(e.target)) {
+             dropdownMenu.style.opacity = "0";
+             setTimeout(() => dropdownMenu.style.display = "none", 200);
+         }
+     });
     
 });
 
