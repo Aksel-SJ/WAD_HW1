@@ -6,16 +6,22 @@
     <link rel="stylesheet" href="res\css\style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="input">
-            <div class="buttons">
-                <a href="index.html">Home</a>
-                <a href="login.html">
-                    <img src="res/images/user_icon.jpg" class="headIcon" alt="User Icon">
-                </a>
+    <header>
+        <div class="topnav">
+            <a id="home" href="index.html">Home</a>
+            <a id="addPost" href="addPost.html">Add Post</a>
+
+            <div class="usermenu">
+                <img src="res/images/user_icon.jpg" alt="User" class="picture" id="userIcon">
+                <div class="dropdown" id="dropdownMenu">
+                    <p><strong>John Doe</strong></p>
+                    <p>john.doe@ut.ee</p>
+                    <a href="login.html">Logout</a>
+                </div>
             </div>
         </div>
-    </div>
+    </header>
+    
     <main class="addpost">
         <form>
             <div class="form-group">
@@ -31,6 +37,12 @@
             </button>
         </form>
     </main>
+    
+    <footer>
+        <p>Footer</p>
+    </footer>
+    
     <script src="script.js"></script>
 </body>
 </html>
+
