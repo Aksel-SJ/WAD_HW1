@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "author": "Juku",
+    "date": "2022-10-22",
+    "content": "Tartu 2022",
+    "image": "https://visittartu.com/wp-content/uploads/2024/10/Kaarel-Kovatu_TARTU-DROON-2-scaled.jpg",
+    "profileImage": "https://cdn-icons-png.freepik.com/512/1077/1077114.png"
+  },
+  {
+    "id": 2,
+    "author": "Kass",
+    "date": "2022-10-22",
+    "content": "Looking for a teammate in the python course",
+    "profileImage": "https://cdn-icons-png.freepik.com/512/1077/1077114.png"
+  },
+  {
+    "id": 3,
+    "author": "Ralf",
+    "date": "2022-10-22",
+    "content": "Tere, kas keegi tahab koos õppida eksamiks?",
+    "profileImage": "https://cdn-icons-png.freepik.com/512/1077/1077114.png"
+  },
+  {
+    "id": 4,
+    "author": "Lumikekec",
+    "date": "2022-10-22",
+    "content": "Tere, kas keegi teab kus klassiruumis toimub täna tund?",
+    "profileImage": "https://cdn-icons-png.freepik.com/512/1077/1077114.png"
+  },
+  {
+    "id": 5,
+    "author": "Georg",
+    "date": "2022-10-22",
+    "content": "Ei saa diskreetset matemaatikast midagi aru, palun aidake",
+    "profileImage": "https://cdn-icons-png.freepik.com/512/1077/1077114.png"
+  },
+  {
+    "id": 6,
+    "author": "Anna",
+    "date": "2022-10-23",
+    "content": "Had a bad study session at the library!",
+    "profileImage": "https://cdn-icons-png.freepik.com/512/1077/1077114.png"
+  },
+  {
+    "id": 7,
+    "author": "Markus",
+    "date": "2022-10-24",
+    "content": "Anyone want to go to Gen?",
+    "profileImage": "https://cdn-icons-png.freepik.com/512/1077/1077114.png"
+  },
+  {
+    "id": 8,
+    "author": "Laura",
+    "date": "2022-10-25",
+    "content": "Is Piro closed already?",
+    "profileImage": "https://cdn-icons-png.freepik.com/512/1077/1077114.png"
+  },
+  {
+    "id": 9,
+    "author": "Karl",
+    "date": "2022-10-25",
+    "content": "What is Data Science?",
+    "profileImage": "https://cdn-icons-png.freepik.com/512/1077/1077114.png"
+  },
+  {
+    "id": 10,
+    "author": "Mari",
+    "date": "2022-10-26",
+    "content": "What's the difference between an array and a list?",
+    "profileImage": "https://cdn-icons-png.freepik.com/512/1077/1077114.png"
+  }
+]
+
